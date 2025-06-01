@@ -15,7 +15,7 @@
   ```
 
 ### 2. get_total_orders
-- **Mô tả**: Đếm tổng số đơn hàng trong một khoảng thời gian
+- **Mô tả**: Đếm tổng số đơn hàng trong một khoảng thời gian (tháng, quý, năm)
 - **Tham số**:
   - `start_date` (string)
   - `end_date` (string)
@@ -28,7 +28,7 @@
   ```
 
 ### 3. get_avg_profit_by_month
-- **Mô tả**: Tính lợi nhuận trung bình theo tháng trong một khoảng thời gian
+- **Mô tả**: Tính lợi nhuận trung bình theo tháng trong một khoảng thời gian (tháng, quý, năm)
 - **Tham số**:
   - `start_date` (string)
   - `end_date` (string)

@@ -3,16 +3,16 @@ Tính tổng doanh thu từ ngày 1/1/2023 đến 31/1/2023 passed
 
 Tổng doanh thu tháng 3 năm 2024 là bao nhiêu? passed
 
-Doanh thu của quý 2 năm 2023 là bao nhiêu?
+Doanh thu của quý 2 năm 2023 là bao nhiêu? passed 1/2
 
-Tổng doanh thu trong năm 2022?
+Tổng doanh thu trong năm 2022? passed
 
-Cho tôi báo cáo doanh thu trong khoảng thời gian từ 15/2 đến 15/3/2023
+Cho tôi báo cáo doanh thu trong khoảng thời gian từ 15/2 đến 15/3/2023 passed 1/2
 
 2. get_total_orders
-Đếm tổng số đơn hàng từ 1/1/2023 đến 31/1/2023
+Đếm tổng số đơn hàng từ 1/1/2023 đến 31/1/2023 failed
 
-Tổng số đơn hàng tháng 5 năm 2024 là bao nhiêu?
+Tổng số đơn hàng tháng 5 năm 2024 là bao nhiêu? passed
 
 Có bao nhiêu đơn hàng trong quý 3 năm 2023?
 
