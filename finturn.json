@@ -1,0 +1,199 @@
+{"question": "Tính tổng doanh thu tháng 1/2024", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Doanh thu từ ngày 01/02/2024 đến 28/02/2024 là bao nhiêu?", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tổng doanh thu quý 1 năm 2024", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tổng doanh thu năm 2023", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tổng doanh thu tuần này", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Có bao nhiêu đơn hàng trong tháng 1/2024?", "function": "get_total_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đếm số đơn hàng từ 01/02/2024 đến 28/02/2024", "function": "get_total_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Số đơn hàng quý 1 năm 2024", "function": "get_total_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Số đơn hàng năm 2023", "function": "get_total_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng tuần này là bao nhiêu?", "function": "get_total_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Lợi nhuận trung bình mỗi tháng từ 01/2023 đến 06/2023", "function": "get_avg_profit_by_month", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tính lợi nhuận trung bình theo tháng năm 2023", "function": "get_avg_profit_by_month", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Lợi nhuận trung bình tháng 1/2024", "function": "get_avg_profit_by_month", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu tháng 1 và tháng 2 năm 2024", "function": "compare_revenue", "parameters": {"period1_start": "YYYY-MM-DD", "period1_end": "YYYY-MM-DD", "period2_start": "YYYY-MM-DD", "period2_end": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu quý 1 và quý 2 năm 2023", "function": "compare_revenue", "parameters": {"period1_start": "YYYY-MM-DD", "period1_end": "YYYY-MM-DD", "period2_start": "YYYY-MM-DD", "period2_end": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu giữa hai tuần gần nhất", "function": "compare_revenue", "parameters": {"period1_start": "YYYY-MM-DD", "period1_end": "YYYY-MM-DD", "period2_start": "YYYY-MM-DD", "period2_end": "YYYY-MM-DD"}}
+{"question": "Xu hướng doanh thu theo tuần từ 01/01/2024 đến 31/01/2024", "function": "get_weekly_trend", "parameters": {"metric": "revenue", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Xu hướng số đơn hàng theo tuần tháng 2/2024", "function": "get_weekly_trend", "parameters": {"metric": "orders", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Xu hướng lợi nhuận theo tuần quý 1/2024", "function": "get_weekly_trend", "parameters": {"metric": "profit", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Báo cáo doanh thu theo quý năm 2023", "function": "get_quarterly_report", "parameters": {"metric": "revenue", "year": 2023}}
+{"question": "Báo cáo số đơn hàng theo quý năm 2024", "function": "get_quarterly_report", "parameters": {"metric": "orders", "year": 2024}}
+{"question": "Báo cáo lợi nhuận theo quý năm 2022", "function": "get_quarterly_report", "parameters": {"metric": "profit", "year": 2022}}
+{"question": "Sản phẩm bán chạy nhất tháng 1/2024", "function": "get_top_selling_product", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Sản phẩm bán chạy nhất quý 1/2024", "function": "get_top_selling_product", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Sản phẩm bán chạy nhất năm 2023", "function": "get_top_selling_product", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng có giá trị cao nhất tháng 1/2024", "function": "get_top_order", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng lớn nhất quý 1/2024", "function": "get_top_order", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng giá trị cao nhất năm 2023", "function": "get_top_order", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu giữa các chi nhánh tháng 1/2024", "function": "compare_revenue_by_branch", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu giữa các chi nhánh quý 1/2024", "function": "compare_revenue_by_branch", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu giữa các chi nhánh năm 2023", "function": "compare_revenue_by_branch", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Doanh thu của sản phẩm A tháng 1/2024", "function": "get_revenue_by_product", "parameters": {"product_name": "PRODUCT_NAME", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Doanh thu sản phẩm B quý 1/2024", "function": "get_revenue_by_product", "parameters": {"product_name": "PRODUCT_NAME", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Doanh thu sản phẩm C năm 2023", "function": "get_revenue_by_product", "parameters": {"product_name": "PRODUCT_NAME", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Số đơn hàng của khách VIP tháng 1/2024", "function": "get_vip_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đếm đơn hàng VIP quý 1/2024", "function": "get_vip_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đếm đơn hàng VIP năm 2023", "function": "get_vip_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Liệt kê đơn hàng giá trị trên 10 triệu tháng 1/2024", "function": "get_orders_above_value", "parameters": {"min_value": 10000000, "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng trên 5 triệu quý 1/2024", "function": "get_orders_above_value", "parameters": {"min_value": 5000000, "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng trên 20 triệu năm 2023", "function": "get_orders_above_value", "parameters": {"min_value": 20000000, "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Xem chi tiết đơn hàng mã 12345", "function": "get_order_detail", "parameters": {"order_id": "ORDER_ID"}}
+{"question": "Chi tiết đơn hàng 67890", "function": "get_order_detail", "parameters": {"order_id": "ORDER_ID"}}
+{"question": "Thông tin đơn hàng 54321", "function": "get_order_detail", "parameters": {"order_id": "ORDER_ID"}}
+{"question": "Lịch sử mua hàng của khách hàng mã KH001", "function": "get_customer_history", "parameters": {"customer_id": "CUSTOMER_ID"}}
+{"question": "Lịch sử mua hàng của khách hàng KH002", "function": "get_customer_history", "parameters": {"customer_id": "CUSTOMER_ID"}}
+{"question": "Lịch sử mua hàng của khách VIP", "function": "get_customer_history", "parameters": {"customer_id": "CUSTOMER_ID"}}
+{"question": "Các sản phẩm trong đơn hàng 67890", "function": "get_products_in_order", "parameters": {"order_id": "ORDER_ID"}}
+{"question": "Sản phẩm trong đơn hàng mã 12345", "function": "get_products_in_order", "parameters": {"order_id": "ORDER_ID"}}
+{"question": "Danh sách sản phẩm của đơn hàng 54321", "function": "get_products_in_order", "parameters": {"order_id": "ORDER_ID"}}
+{"question": "Tỉ lệ hoàn thành đơn hàng tháng 1/2024", "function": "get_order_completion_rate", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tỉ lệ hoàn thành đơn hàng quý 1/2024", "function": "get_order_completion_rate", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tỉ lệ hoàn thành đơn hàng năm 2023", "function": "get_order_completion_rate", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tính ROI của chiến dịch MKT2024", "function": "get_roi", "parameters": {"campaign_id": "CAMPAIGN_ID"}}
+{"question": "Tính ROI chiến dịch SALE2023", "function": "get_roi", "parameters": {"campaign_id": "CAMPAIGN_ID"}}
+{"question": "Tính ROI chiến dịch BlackFriday", "function": "get_roi", "parameters": {"campaign_id": "CAMPAIGN_ID"}}
+{"question": "Lượt truy cập website tháng 1/2024", "function": "get_traffic_stats", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Lượt truy cập website quý 1/2024", "function": "get_traffic_stats", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Lượt truy cập website năm 2023", "function": "get_traffic_stats", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Số lượng khách hàng mới tháng 1/2024", "function": "get_new_customer_count", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Khách hàng mới quý 1/2024", "function": "get_new_customer_count", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Khách hàng mới năm 2023", "function": "get_new_customer_count", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Báo cáo phân khúc khách hàng VIP tháng 1/2024", "function": "get_customer_segment_report", "parameters": {"segment": "VIP", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Báo cáo phân khúc khách hàng thường quý 1/2024", "function": "get_customer_segment_report", "parameters": {"segment": "REGULAR", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Báo cáo phân khúc khách hàng tiềm năng năm 2023", "function": "get_customer_segment_report", "parameters": {"segment": "POTENTIAL", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tổng doanh thu tháng 2/2024", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tổng doanh thu tháng 3/2024", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tổng doanh thu tháng 4/2024", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tính tổng doanh thu quý 2 năm 2024", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tổng doanh thu trong năm ngoái là bao nhiêu?", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Doanh thu từ đầu năm đến nay", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tổng doanh thu trong 6 tháng đầu năm 2024", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tổng doanh thu tuần trước", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Có bao nhiêu đơn hàng trong quý 2/2024?", "function": "get_total_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tổng số đơn hàng trong năm 2022 là bao nhiêu?", "function": "get_total_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đếm đơn hàng từ đầu năm đến nay", "function": "get_total_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Số đơn hàng trong 6 tháng đầu năm 2024", "function": "get_total_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng tuần trước là bao nhiêu?", "function": "get_total_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Lợi nhuận trung bình mỗi tháng quý 2/2024", "function": "get_avg_profit_by_month", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Lợi nhuận trung bình tháng trong năm 2022", "function": "get_avg_profit_by_month", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Lợi nhuận trung bình từ đầu năm đến nay", "function": "get_avg_profit_by_month", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu tháng 3 và tháng 4 năm 2024", "function": "compare_revenue", "parameters": {"period1_start": "YYYY-MM-DD", "period1_end": "YYYY-MM-DD", "period2_start": "YYYY-MM-DD", "period2_end": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu quý 2 và quý 3 năm 2023", "function": "compare_revenue", "parameters": {"period1_start": "YYYY-MM-DD", "period1_end": "YYYY-MM-DD", "period2_start": "YYYY-MM-DD", "period2_end": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu giữa hai tháng gần nhất", "function": "compare_revenue", "parameters": {"period1_start": "YYYY-MM-DD", "period1_end": "YYYY-MM-DD", "period2_start": "YYYY-MM-DD", "period2_end": "YYYY-MM-DD"}}
+{"question": "Xu hướng doanh thu theo tuần quý 2/2024", "function": "get_weekly_trend", "parameters": {"metric": "revenue", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Xu hướng số đơn hàng theo tuần năm 2022", "function": "get_weekly_trend", "parameters": {"metric": "orders", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Xu hướng lợi nhuận theo tuần trong 6 tháng đầu năm", "function": "get_weekly_trend", "parameters": {"metric": "profit", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Báo cáo doanh thu theo quý năm 2024", "function": "get_quarterly_report", "parameters": {"metric": "revenue", "year": 2024}}
+{"question": "Báo cáo số đơn hàng theo quý năm 2022", "function": "get_quarterly_report", "parameters": {"metric": "orders", "year": 2022}}
+{"question": "Báo cáo lợi nhuận theo quý năm 2021", "function": "get_quarterly_report", "parameters": {"metric": "profit", "year": 2021}}
+{"question": "Sản phẩm bán chạy nhất quý 2/2024", "function": "get_top_selling_product", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Sản phẩm bán chạy nhất năm 2022", "function": "get_top_selling_product", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Sản phẩm bán chạy nhất trong 6 tháng đầu năm", "function": "get_top_selling_product", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng có giá trị cao nhất quý 2/2024", "function": "get_top_order", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng lớn nhất năm 2022", "function": "get_top_order", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng giá trị cao nhất trong 6 tháng đầu năm", "function": "get_top_order", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu giữa các chi nhánh quý 2/2024", "function": "compare_revenue_by_branch", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu giữa các chi nhánh năm 2022", "function": "compare_revenue_by_branch", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu giữa các chi nhánh trong 6 tháng đầu năm", "function": "compare_revenue_by_branch", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Doanh thu của sản phẩm D quý 2/2024", "function": "get_revenue_by_product", "parameters": {"product_name": "PRODUCT_NAME", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Doanh thu sản phẩm E năm 2022", "function": "get_revenue_by_product", "parameters": {"product_name": "PRODUCT_NAME", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Doanh thu sản phẩm F trong 6 tháng đầu năm", "function": "get_revenue_by_product", "parameters": {"product_name": "PRODUCT_NAME", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Số đơn hàng của khách VIP quý 2/2024", "function": "get_vip_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đếm đơn hàng VIP năm 2022", "function": "get_vip_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đếm đơn hàng VIP trong 6 tháng đầu năm", "function": "get_vip_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Liệt kê đơn hàng giá trị trên 15 triệu quý 2/2024", "function": "get_orders_above_value", "parameters": {"min_value": 15000000, "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng trên 8 triệu năm 2022", "function": "get_orders_above_value", "parameters": {"min_value": 8000000, "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng trên 25 triệu trong 6 tháng đầu năm", "function": "get_orders_above_value", "parameters": {"min_value": 25000000, "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Xem chi tiết đơn hàng mã 24680", "function": "get_order_detail", "parameters": {"order_id": "ORDER_ID"}}
+{"question": "Chi tiết đơn hàng 13579", "function": "get_order_detail", "parameters": {"order_id": "ORDER_ID"}}
+{"question": "Thông tin đơn hàng 11223", "function": "get_order_detail", "parameters": {"order_id": "ORDER_ID"}}
+{"question": "Lịch sử mua hàng của khách hàng mã KH003", "function": "get_customer_history", "parameters": {"customer_id": "CUSTOMER_ID"}}
+{"question": "Lịch sử mua hàng của khách hàng KH004", "function": "get_customer_history", "parameters": {"customer_id": "CUSTOMER_ID"}}
+{"question": "Lịch sử mua hàng của khách hàng thân thiết", "function": "get_customer_history", "parameters": {"customer_id": "CUSTOMER_ID"}}
+{"question": "Các sản phẩm trong đơn hàng 24680", "function": "get_products_in_order", "parameters": {"order_id": "ORDER_ID"}}
+{"question": "Sản phẩm trong đơn hàng mã 13579", "function": "get_products_in_order", "parameters": {"order_id": "ORDER_ID"}}
+{"question": "Danh sách sản phẩm của đơn hàng 11223", "function": "get_products_in_order", "parameters": {"order_id": "ORDER_ID"}}
+{"question": "Tỉ lệ hoàn thành đơn hàng quý 2/2024", "function": "get_order_completion_rate", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tỉ lệ hoàn thành đơn hàng năm 2022", "function": "get_order_completion_rate", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tỉ lệ hoàn thành đơn hàng trong 6 tháng đầu năm", "function": "get_order_completion_rate", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tính ROI của chiến dịch SUMMER2024", "function": "get_roi", "parameters": {"campaign_id": "CAMPAIGN_ID"}}
+{"question": "Tính ROI chiến dịch WINTER2022", "function": "get_roi", "parameters": {"campaign_id": "CAMPAIGN_ID"}}
+{"question": "Tính ROI chiến dịch TET2023", "function": "get_roi", "parameters": {"campaign_id": "CAMPAIGN_ID"}}
+{"question": "Lượt truy cập website quý 2/2024", "function": "get_traffic_stats", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Lượt truy cập website năm 2022", "function": "get_traffic_stats", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Lượt truy cập website trong 6 tháng đầu năm", "function": "get_traffic_stats", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Số lượng khách hàng mới quý 2/2024", "function": "get_new_customer_count", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Khách hàng mới năm 2022", "function": "get_new_customer_count", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Khách hàng mới trong 6 tháng đầu năm", "function": "get_new_customer_count", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Báo cáo phân khúc khách hàng VIP quý 2/2024", "function": "get_customer_segment_report", "parameters": {"segment": "VIP", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Báo cáo phân khúc khách hàng thường năm 2022", "function": "get_customer_segment_report", "parameters": {"segment": "REGULAR", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Báo cáo phân khúc khách hàng tiềm năng trong 6 tháng đầu năm", "function": "get_customer_segment_report", "parameters": {"segment": "POTENTIAL", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tôi muốn biết tổng doanh thu của quý 3 năm 2024 là bao nhiêu?", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Doanh thu trong tháng 7 năm nay là bao nhiêu?", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tổng doanh thu của công ty trong 3 tháng gần nhất?", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Có bao nhiêu đơn hàng được tạo trong tháng 6/2025?", "function": "get_total_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Số lượng đơn hàng phát sinh trong quý 4 năm ngoái?", "function": "get_total_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tổng số đơn hàng trong 30 ngày vừa qua?", "function": "get_total_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Lợi nhuận trung bình mỗi tháng trong năm tài chính 2024?", "function": "get_avg_profit_by_month", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tính lợi nhuận trung bình theo tháng từ tháng 1 đến tháng 12 năm 2023", "function": "get_avg_profit_by_month", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu giữa tháng 5 và tháng 6 năm nay", "function": "compare_revenue", "parameters": {"period1_start": "YYYY-MM-DD", "period1_end": "YYYY-MM-DD", "period2_start": "YYYY-MM-DD", "period2_end": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu giữa quý 1 và quý 4 năm 2024", "function": "compare_revenue", "parameters": {"period1_start": "YYYY-MM-DD", "period1_end": "YYYY-MM-DD", "period2_start": "YYYY-MM-DD", "period2_end": "YYYY-MM-DD"}}
+{"question": "Xu hướng doanh thu theo tuần trong tháng 5/2025", "function": "get_weekly_trend", "parameters": {"metric": "revenue", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Xu hướng số đơn hàng theo tuần trong quý 3/2024", "function": "get_weekly_trend", "parameters": {"metric": "orders", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Báo cáo doanh thu theo quý năm 2025", "function": "get_quarterly_report", "parameters": {"metric": "revenue", "year": 2025}}
+{"question": "Báo cáo số đơn hàng theo quý năm 2021", "function": "get_quarterly_report", "parameters": {"metric": "orders", "year": 2021}}
+{"question": "Sản phẩm nào bán chạy nhất trong tháng 8/2024?", "function": "get_top_selling_product", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Sản phẩm bán chạy nhất trong quý 4 năm 2023 là gì?", "function": "get_top_selling_product", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng có giá trị cao nhất trong tháng 12/2024 là đơn nào?", "function": "get_top_order", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng lớn nhất trong quý 2 năm 2025 là gì?", "function": "get_top_order", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu giữa các chi nhánh trong tháng 6/2025", "function": "compare_revenue_by_branch", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Doanh thu của sản phẩm X trong tháng 5/2025 là bao nhiêu?", "function": "get_revenue_by_product", "parameters": {"product_name": "PRODUCT_NAME", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Doanh thu sản phẩm Y trong quý 3/2024?", "function": "get_revenue_by_product", "parameters": {"product_name": "PRODUCT_NAME", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Có bao nhiêu đơn hàng của khách VIP trong tháng 7/2025?", "function": "get_vip_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đếm đơn hàng VIP trong quý 4 năm 2024", "function": "get_vip_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Liệt kê đơn hàng có giá trị trên 50 triệu trong tháng 6/2025", "function": "get_orders_above_value", "parameters": {"min_value": 50000000, "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng trên 100 triệu trong quý 1/2025", "function": "get_orders_above_value", "parameters": {"min_value": 100000000, "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Xem chi tiết đơn hàng mã 99999", "function": "get_order_detail", "parameters": {"order_id": "ORDER_ID"}}
+{"question": "Lịch sử mua hàng của khách hàng mã KH999", "function": "get_customer_history", "parameters": {"customer_id": "CUSTOMER_ID"}}
+{"question": "Các sản phẩm trong đơn hàng 88888 là gì?", "function": "get_products_in_order", "parameters": {"order_id": "ORDER_ID"}}
+{"question": "Tỉ lệ hoàn thành đơn hàng trong tháng 5/2025 là bao nhiêu phần trăm?", "function": "get_order_completion_rate", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tính ROI của chiến dịch SUMMER2025", "function": "get_roi", "parameters": {"campaign_id": "CAMPAIGN_ID"}}
+{"question": "Lượt truy cập website trong tháng 6/2025 là bao nhiêu?", "function": "get_traffic_stats", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Có bao nhiêu khách hàng mới trong quý 3/2024?", "function": "get_new_customer_count", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Báo cáo phân khúc khách hàng VIP trong tháng 7/2025", "function": "get_customer_segment_report", "parameters": {"segment": "VIP", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Báo cáo phân khúc khách hàng tiềm năng trong quý 2/2025", "function": "get_customer_segment_report", "parameters": {"segment": "POTENTIAL", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tôi cần thống kê tổng doanh thu từ đầu quý đến nay.", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Doanh thu cao nhất trong các tháng vừa qua là bao nhiêu?", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tổng doanh thu của năm tài chính hiện tại?", "function": "get_total_revenue", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Có bao nhiêu đơn hàng được đặt trong tuần này?", "function": "get_total_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Số lượng đơn hàng phát sinh trong tháng vừa rồi?", "function": "get_total_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tổng số đơn hàng trong quý này là bao nhiêu?", "function": "get_total_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Lợi nhuận trung bình mỗi tháng trong quý này?", "function": "get_avg_profit_by_month", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tính lợi nhuận trung bình theo tháng trong 12 tháng qua", "function": "get_avg_profit_by_month", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu giữa tháng này và tháng trước", "function": "compare_revenue", "parameters": {"period1_start": "YYYY-MM-DD", "period1_end": "YYYY-MM-DD", "period2_start": "YYYY-MM-DD", "period2_end": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu giữa quý này và quý trước", "function": "compare_revenue", "parameters": {"period1_start": "YYYY-MM-DD", "period1_end": "YYYY-MM-DD", "period2_start": "YYYY-MM-DD", "period2_end": "YYYY-MM-DD"}}
+{"question": "Xu hướng doanh thu theo tuần trong quý này", "function": "get_weekly_trend", "parameters": {"metric": "revenue", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Xu hướng số đơn hàng theo tuần trong tháng này", "function": "get_weekly_trend", "parameters": {"metric": "orders", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Báo cáo doanh thu theo quý năm nay", "function": "get_quarterly_report", "parameters": {"metric": "revenue", "year": 2025}}
+{"question": "Báo cáo số đơn hàng theo quý năm ngoái", "function": "get_quarterly_report", "parameters": {"metric": "orders", "year": 2024}}
+{"question": "Sản phẩm nào bán chạy nhất trong tháng này?", "function": "get_top_selling_product", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Sản phẩm bán chạy nhất trong quý này là gì?", "function": "get_top_selling_product", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng có giá trị cao nhất trong tuần này là đơn nào?", "function": "get_top_order", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng lớn nhất trong tháng này là gì?", "function": "get_top_order", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "So sánh doanh thu giữa các chi nhánh trong quý này", "function": "compare_revenue_by_branch", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Doanh thu của sản phẩm Z trong tháng này là bao nhiêu?", "function": "get_revenue_by_product", "parameters": {"product_name": "PRODUCT_NAME", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Doanh thu sản phẩm Q trong quý này?", "function": "get_revenue_by_product", "parameters": {"product_name": "PRODUCT_NAME", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Có bao nhiêu đơn hàng của khách VIP trong tuần này?", "function": "get_vip_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đếm đơn hàng VIP trong tháng này", "function": "get_vip_orders", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Liệt kê đơn hàng có giá trị trên 1 tỷ trong tháng này", "function": "get_orders_above_value", "parameters": {"min_value": 1000000000, "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Đơn hàng trên 200 triệu trong quý này", "function": "get_orders_above_value", "parameters": {"min_value": 200000000, "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Xem chi tiết đơn hàng mã 20240601", "function": "get_order_detail", "parameters": {"order_id": "ORDER_ID"}}
+{"question": "Lịch sử mua hàng của khách hàng mã KH2025", "function": "get_customer_history", "parameters": {"customer_id": "CUSTOMER_ID"}}
+{"question": "Các sản phẩm trong đơn hàng 20240602 là gì?", "function": "get_products_in_order", "parameters": {"order_id": "ORDER_ID"}}
+{"question": "Tỉ lệ hoàn thành đơn hàng trong quý này là bao nhiêu phần trăm?", "function": "get_order_completion_rate", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Tính ROI của chiến dịch AUTUMN2025", "function": "get_roi", "parameters": {"campaign_id": "CAMPAIGN_ID"}}
+{"question": "Lượt truy cập website trong tháng này là bao nhiêu?", "function": "get_traffic_stats", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Có bao nhiêu khách hàng mới trong tháng này?", "function": "get_new_customer_count", "parameters": {"start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Báo cáo phân khúc khách hàng VIP trong quý này", "function": "get_customer_segment_report", "parameters": {"segment": "VIP", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
+{"question": "Báo cáo phân khúc khách hàng tiềm năng trong tháng này", "function": "get_customer_segment_report", "parameters": {"segment": "POTENTIAL", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD"}}
